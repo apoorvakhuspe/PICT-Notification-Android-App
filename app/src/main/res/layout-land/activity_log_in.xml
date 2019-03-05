@@ -1,0 +1,99 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LogIn">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:focusable="true"
+        android:hint="Username"
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="@android:color/black" />
+
+    <!--<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageView"
+    android:src="@drawable/abc"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true" />-->
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/newuser"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="147dp"
+        android:text="No. of attempts left : "
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="148dp"
+        android:layout_marginEnd="203dp"
+        android:text="New Text"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/lbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:text="Login"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/newuser"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="215dp"
+        android:text="New User?" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/newuser"
+        android:layout_toEndOf="@+id/newuser"
+        android:text="Sign Up" />
+
+</RelativeLayout>

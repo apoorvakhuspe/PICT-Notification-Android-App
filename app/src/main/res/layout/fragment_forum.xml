@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:background="#fff"
+    tools:context=".Forum">
+
+    <include layout="@layout/content_forum" />
+
+
+    <!--<include
+        android:id="@+id/include"
+        layout="@layout/content_dashboard"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_forum"
+        android:layout_width="match_parent"
+        android:layout_height="452dp">
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/uploadforum"
+        android:layout_width="51dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/ic_menu_send"
+        android:background="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/forumMessage"
+        android:layout_width="284dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter a Question"
+        android:background="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

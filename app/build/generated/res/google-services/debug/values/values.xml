@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">510386401336-46uprojjv8akpvqnb1vpibltd048d4s2.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://pictonification-50bc1.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">510386401336</string>
+    <string name="google_api_key" translatable="false">AIzaSyDR2sNYx-Bu7LViAa21RTgOz8nnTFMOcUk</string>
+    <string name="google_app_id" translatable="false">1:510386401336:android:274f9521a5e5a4da</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDR2sNYx-Bu7LViAa21RTgOz8nnTFMOcUk</string>
+    <string name="google_storage_bucket" translatable="false">pictonification-50bc1.appspot.com</string>
+    <string name="project_id" translatable="false">pictonification-50bc1</string>
+</resources>

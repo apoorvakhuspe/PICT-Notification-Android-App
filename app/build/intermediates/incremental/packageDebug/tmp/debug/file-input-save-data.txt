@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Mon Oct 15 11:44:29 IST 2018
+1.base=D\:\\Pictonification-20181001T155036Z-001\\Pictonification\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=D\:\\Pictonification-20181001T155036Z-001\\Pictonification\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+1.path=crashlytics-build.properties

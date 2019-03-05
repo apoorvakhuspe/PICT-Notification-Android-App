@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "510386401336",
+    "firebase_url": "https://pictonification-50bc1.firebaseio.com",
+    "project_id": "pictonification-50bc1",
+    "storage_bucket": "pictonification-50bc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510386401336:android:274f9521a5e5a4da",
+        "android_client_info": {
+          "package_name": "com.example.apoorva.pictonification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510386401336-t9v7e9qmlif0nb7vov44o3oeibp5hiam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apoorva.pictonification",
+            "certificate_hash": "b37878418e1aba38d70571fb6be2e701133e86b9"
+          }
+        },
+        {
+          "client_id": "510386401336-46uprojjv8akpvqnb1vpibltd048d4s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR2sNYx-Bu7LViAa21RTgOz8nnTFMOcUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510386401336-46uprojjv8akpvqnb1vpibltd048d4s2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

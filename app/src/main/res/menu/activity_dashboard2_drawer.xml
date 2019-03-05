@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_action_events"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_study_material"
+            android:icon="@drawable/ic_action_study_material"
+            android:title="Study Material" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_action_forum"
+            android:title="Forum" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_action_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Pictonification</string>
+    <string name="send_to">Hello world!</string>
+    <string-array name="category">
+        <item>All</item>
+        <item>DepartmentWise</item>
+        <item>ClassWise</item>
+        <item>BatchWise</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Year</item>
+        <item>FE</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+    </string-array>
+
+    <string-array name="div">
+        <item>Division</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="batch">
+        <item>Batch</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>Department</item>
+        <item>Computer Engineering</item>
+        <item>Information Technology</item>
+        <item>Electronics and Telecommunication</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Notices</item>
+        <item>Events</item>
+        <item>Study Material</item>
+    </string-array>
+
+    <string name="title_activity_register">Register</string>
+
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_dashboard_teacher">DashboardTeacher</string>
+
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+
+
